@@ -1,0 +1,42 @@
+.hero__wrapper {
+    position: relative;
+}
+#myVideo {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 80%;
+   height: 100%;
+   object-fit: cover;
+}
+.hero {
+    text-align: right;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    line-height: 1;
+    position: relative;
+}
+.hero__title {
+    font-size: 10rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+@media screen and (min-width: 1024px)  {
+    #myVideo {
+        width: 60%;
+     }
+    .hero__title {
+        font-size: 8rem;
+    }
+    .hero__link {
+        padding: 3rem 4rem;
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1440px)  {
+
+    .hero {
+        padding: 20rem 0;
+    }
+}
